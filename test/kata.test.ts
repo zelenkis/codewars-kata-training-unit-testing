@@ -55,8 +55,7 @@ describe('Kata scenarios', () => {
     expect(test4).toBe(1);
     const test5 = sut.calculator2(2,2,"n");
     expect(test5).toBe("unknown value");
-    const test6 = sut.calculator2(2,"2","n");
-    expect(test6).toBe("unknown value");
+    
     
   })
 
@@ -95,20 +94,15 @@ describe('Kata scenarios', () => {
     expect(testMultiplyAll2).toStrictEqual([0, 0, 0]);
     
   })
-  // it('should not return null', () => {
-  //   const sut = new Kata();
 
-  //   const actual = sut.execute('something', 2);
-
-  //   expect(actual).not.toBeNull();
-  // });
-
-  // it('should return expected result', () => {
-  //   const sut = new Kata();
-
-  //   const actual = sut.execute('something', 2);
-
-  //   expect(actual).toBe('something2');
-  // });
+  it ('should return the number of lowercase vowels that a given string contains', () => {
+    const sut = new Kata();
+    const testGetCount = sut.getCount('abracadabra');
+    expect(testGetCount).toBe(5);
+    const testGetCount2 = sut.getCount('abrAcadabra');
+    expect(testGetCount2).toBe(4);
+    const testGetCount3 = sut.getCount('my pyx');
+    expect(testGetCount3).toBe(0);
+  })
 });
 
