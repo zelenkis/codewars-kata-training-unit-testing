@@ -2,7 +2,7 @@
 
 [![Node CI](https://github.com/aivascu/ts-kata/actions/workflows/nodejs.yml/badge.svg?branch=master)](https://github.com/aivascu/ts-kata/actions/workflows/nodejs.yml)
 
-This repository is a TypeScript project for solving and testing exercices from [Codewars.com](https://www.codewars.com).
+This repository is a TypeScript project for solving and testing exercises from [Codewars.com](https://www.codewars.com).
 
 ## Summary
 
